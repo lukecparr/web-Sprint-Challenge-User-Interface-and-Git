@@ -224,13 +224,37 @@ footer nav a {
     text-decoration: none;
 }
 
+/*About Page Styling*/
+
 .about-section {
-    width: 70vw;
+    width: 95%;
     margin: 0 auto;
 }
 
 .main-container {
-    border-top: 1px dashed black;Í
+    border-top: 1px dashed black;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.main-container div {
+    width: 46%;
+}
+
+.content-box {
+    border-bottom: 1px dashed black;
+    margin-bottom: 4rem
+}
+
+.content-box h2 {
+    margin: 1rem 0;
+}
+
+.content-box p {
+    margin: 1rem 0
 }
 
 button {
@@ -239,6 +263,12 @@ button {
     border-radius: .7rem;
     border: 3px solid black;
     font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.work-together {
+    width: 95%;
+    margin: 0 auto 3rem;
 }
 
 
