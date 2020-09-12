@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*End Reset*/
+
 * {
     box-sizing: border-box;
 }
@@ -70,6 +72,8 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/*Header & Nav styling*/
 
 header {
     margin: 1rem 0 2rem;
@@ -107,9 +111,15 @@ nav a:hover {
     color: white;
 }
 
+/*End header & nav styling*/
+
+/*Header image*/
+
 .post-header-img {
     margin: 0 0 1rem;
 }
+
+/*Top content*/
 
 .top-content {
     display: flex;
@@ -124,6 +134,10 @@ nav a:hover {
     padding: 0 1%;
     padding-bottom: 20px;
 }
+
+/*End top content*/
+
+/*Middle content*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -192,6 +206,10 @@ nav a:hover {
     justify-content: center;
 }
 
+/*End middle content*/
+
+/*Bottom content*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -205,6 +223,10 @@ nav a:hover {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*End bottom content*/
+
+/*Footer*/
 
 footer {
     width: 100%;
@@ -225,12 +247,19 @@ footer nav a {
     text-decoration: none;
 }
 
-/*About Page Styling*/
+/*End footer*/
+
+
+/*Begin About Page*/
+
+/*About section*/
 
 .about-section {
     width: 95%;
     margin: 0 auto;
 }
+
+/*Main content*/
 
 .main-container {
     border-top: 1px dashed black;
@@ -241,9 +270,12 @@ footer nav a {
     justify-content: space-around;
 }
 
+/*Columns*/
 .main-container div {
     width: 46%;
 }
+
+/*Content boxes*/
 
 .content-box {
     border-bottom: 1px dashed black;
@@ -267,9 +299,16 @@ button {
     margin: 1rem 0;
 }
 
+/*End content boxes*/
+
+/*End main content*/
+
+
+/*Bottom content*/
+
 .work-together {
     width: 95%;
     margin: 0 auto 3rem;
 }
 
-
+/*End bottom content*/
