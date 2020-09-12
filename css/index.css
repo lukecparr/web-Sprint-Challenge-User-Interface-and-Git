@@ -74,6 +74,8 @@ p {
 header {
     margin: 1rem 0 2rem;
     box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
 }
 
 header img {
@@ -81,7 +83,6 @@ header img {
 }
 
 #nav-box {
-    display: inline-block;
     width: 79%
 }
 
@@ -121,7 +122,7 @@ nav a:hover {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -270,10 +271,5 @@ button {
     width: 95%;
     margin: 0 auto 3rem;
 }
-
-
-
-
-
 
 
